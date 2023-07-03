@@ -1,0 +1,59 @@
+body {
+    background: #6e7097;
+    min-width: 1500px;
+    width: 100%;
+  }
+  table td {
+    height: 50px;
+    padding: 5px;
+  }
+
+  table td button {
+    font-family: 'Manrope', sans-serif;
+    height: 35px;
+  }
+
+  table {
+    background: #ddccc4;
+  }
+
+  .board-column{
+    float: left;
+    width: 20%;
+    background:#ebecf0;
+    padding: 5px;
+    margin-right: 5px;
+    min-height: 550px;
+    border-radius: 20px;
+  }
+
+  .board-column h3{
+    margin-left: 5px;
+  }
+
+  .board {
+    min-height: 30px;
+    padding: 10px;
+    background: white;
+    box-shadow:4px 4px 10px rgba(0,0,0,0.06);
+    width: 91%;
+    display: inline-block;
+    margin: 5px;
+    border-radius: 10px;
+  }
+  .board-form  button {
+    height: 35px;
+    border-radius: 10px;
+  }
+
+  .board-form {
+    margin-left: 5px;
+    border-radius: 10px;
+  }
+
+  .board-items{
+    font-family: 'Manrope', sans-serif;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    min-height: 600px;
+  }
